@@ -1,0 +1,31 @@
+body{
+    background-color:#d3d3d3;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h2{
+    background-color: #808080;
+    color: white;
+
+}
+h1{
+    justify-content: center;
+   
+    letter-spacing: 15px;
+    padding-left: 25%;
+    padding-right: 25%;
+   
+}
+
+.txt2{
+    margin-top: 25px;
+}
+.te{
+    color: red;
+}
+.te1{
+    background-color: white;
+}
+img{
+    float:left;
+}

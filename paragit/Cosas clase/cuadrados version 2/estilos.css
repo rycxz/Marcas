@@ -1,0 +1,64 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.aumentar{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 2s;
+
+}
+.aumentar:hover{
+    width: 300px;
+    background-color: aqua;
+}
+.aumentar2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 2s ,height 4s;
+
+}
+.aumentar2:hover{
+    height: 300px   ;
+    width: 300px;
+    background-color: aqua;
+}
+.rotar{
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.rotar:hover{
+    transform: scale(1.2,1.2) rotate(20deg);
+}
+div{
+    transition:  width 3s;
+}
+div:hover{
+    width: 300px;
+
+}
+.capa1{
+    transition-timing-function: linear;
+}
+.capa2{
+    transition-timing-function: ease;
+}
+
+.capa3{
+    transition-timing-function: ease-in;
+}
+
+.capa4{
+    transition-timing-function: ease-out;
+}
+
+.capa5{
+    transition-timing-function: ease-in-out;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: movimiento  4s infinite ;
+    border-radius: 40px;
+}
+@keyframes movimiento {
+    0%{top:0px;left: 0px; background-color: aqua;}
+    20%{left: 30px;top: 0px; background-color: red;}
+    30%{left: 79px;top: 0px; background-color: black;}
+    50%{bottom: 30px;left: 79px; top: 0px;  background-color: yellow;}
+    60%{bottom: 79px;left: 79px;  background-color: white;}
+    60%{right: 00px;bottom: 79px;  background-color: aqua;}
+    80%{right: 0px;bottom: 79px;  background-color: brown;}
+    90%{right:0 px;top: 0px;  background-color: rgb(115, 255, 0);}
+    100%{right: 0px;top: 0px; background-color: rgb(212, 135, 35);}
+
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>Animaciones con css3</title>
+            <link rel="stylesheet" href="style/style.css" type="text/css"/>
+        </head>
+        
+        <body>
+        	<div id="wrapper">
+            	<img src="" height="" width="" alt="" />
+            	<ul id="index_cards">
+                	<li id="card-1">
+                    	<h3>Volkanovski</h3>
+                        <img src="" height="130" width="130" alt="Toucan" />
+                        <p>Name: Volkanovski<br />
+                       <br />
+                       <br />
+                        <br />
+                       <br />
+                       </p>
+                    </li>
+                    <li id="card-2">
+                    	<h3></h3>
+                    	<img src="" height= width= alt= />
+                    	<p><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        </p>
+                    </li>
+                    <li id="card-3">
+                    	<h3></h3>
+                    	<img src="" height= width= alt= />
+                        <p><br />
+                        <br />
+                       <br />
+                       <br />
+                        <br />
+                       </p>
+                    </li>
+                    <li id="card-4">
+                    	<h3></h3>
+                    	<img src= height= width= alt= />
+                    	<p><br />
+                       <br />
+                       <br />
+                       <br />
+                        <br />
+                       </p>
+                   	</li>
+                </ul>
+            </div>
+        </body>
+    </html>
