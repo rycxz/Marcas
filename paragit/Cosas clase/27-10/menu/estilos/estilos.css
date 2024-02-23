@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    background-color: #F3E2A9;
+    width: 5em;
+    text-align: center;
+    margin-left: 10px;
+    padding: 14px;
+    border-top: solid;
+    border-color: #ffffcc;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+    padding: 8px;
+   
+}

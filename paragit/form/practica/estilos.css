@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+body{
+    font-family: 'Rethink Sans', sans-serif;
+    background-image: linear-gradient(to top, #ffffff, #d1d0e4, #9fa5cb, #687db2, #13589a);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.contDeTodo{
+    width: 600px;
+    height: 400px;
+   margin-left: 33%;
+   margin-top: 10%;
+   box-shadow:  10px 10px 20px #918c8c,
+   -10px -10px 20px #a7a1a1;
+   border-radius: 14px;
+}
+.subTexto{
+    color: grey;
+}
+.paraMargenes{
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 14px;
+}
+.cos{
+    height: 30px;
+    width: 80%;
+}
+.terminos{
+    color: grey;
+}
+.boton{
+    margin-top: 2%;
+    width: 82%;
+    height: 60px;
+    border-radius: 7px;
+    border-style: none;
+    background: linear-gradient(145deg, #9d9292, #baadad);
+    color: white;
+}
+hr{
+   margin-left: -41px;
+   margin-top: -13px;
+   margin-bottom: 20px ;
+}

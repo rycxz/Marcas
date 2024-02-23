@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+    background-image: url("img/fondo.png");
+    
+}
+.videoClas{
+    margin-left: 44%;
+    margin-top: -40px;
+    font-family: 'Glass Antiqua', cursive;
+    margin-bottom: 30px;
+    color: brown;
+}
+.imgGameOver{
+    border-style: solid;
+    border-color: brown;
+    border-width: 8px;
+    border-radius: 80px;
+   margin-left: 30%; 
+}
+.lista1{
+    word-spacing:90px;
+    list-style: none;
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 25%;
+    padding: 10px;
+    background-color: yellow;
+    
+}
+.list2{
+    
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: purple;
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    margin-top: 100px;
+    margin-left: 49%;
+    color: brown;
+}
+.imgetab{
+    border-style: solid;
+    border-color:lightgreen ;
+    border-width: 4px;
+    border-radius: 4px;
+}
+table{
+    border-spacing: 30px;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 30%;
+    width: fit-content;
+    background-color: white;
+    border-color: orangered;
+    border-radius: 4px;
+    border-style: solid;
+    padding-left: -30px;
+    margin-bottom: 50px;
+}
+.rede{
+    height: 25px;
+    width: 25px;
+}
+.re2{
+    margin-left: 85%;
+}
+.fond{
+   
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    margin-left: 29%;
+    margin-right: 25%;
+    padding: 10px;
+
+}
+.textfin{
+    color: #3498db;
+}
+.colotx{
+    color: green;
+}
+
+
+
+
+

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,100&display=swap');
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin-top: -06%;
+    margin-left: 40%;
+    color: white;
+    font-size: 4em;
+
+}
+.imagen_logo{
+    margin-top: 3%;
+    border-radius: 30px;
+    margin-left: 20%;
+    width: 100px;
+    box-shadow: 0 0 23px 0px #F3E8F3,
+ 	-6px -3px 22px 8px #1D1B1B;
+}
+.todo_menos_el_titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-image: url(IMG/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-size: 2em;
+    margin-top: -01%;
+    margin-left: 40%;
+}
+nav{
+    background-color:rgb(132,132,132);
+    box-shadow: 0 0 23px 0px #544C54,
+ 	-6px -3px 41px 8px #1D1B1B;
+    width: 100%;
+    height: 60px;
+}
+.lista_Navegacion{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    font-size: 1.4em;
+    padding-top: 1%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+a{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.origenes{
+    margin-top: 5%;
+    margin-left:10%;
+    height: 250px;
+    border-radius: 30PX;
+    box-shadow: 0 0 23px 0px #A49DA4,
+    -6px -3px 41px 8px #1D1B1B;
+}
+.actualidad{
+    margin-top:-30%;
+    margin-left:55%;
+    height: 250px;
+    box-shadow: 0 0 23px 0px #A49DA4,
+    -6px -3px 41px 8px #1D1B1B;
+    border-radius: 30PX;
+    
+}
+.titulo_sect_1{
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-left:24%;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.titulo_sect_2{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left:69%;
+}
+.texto_1{
+    font-weight: 600;
+    font-size: 0.9em;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left:12%;
+}
+.texto_2{
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-left:57%;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (min-width:480px){
+    section{
+        width: 80%;
+    }
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    .imagen_logo{
+        width: 300px;
+        height: 300px;
+
+        margin-left:15%;
+    }
+    h1{
+        text-align: center;
+        margin-left:7.5%;
+        font-size: 3em;
+        margin-top: 10px;
+    }
+    h2{
+       text-align: center;
+       margin-left:7.5%;
+        font-size: 2em;
+        margin-top: 10px;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        width: 100%;
+    }
+    .actualidad{
+        margin-top: 5%;
+        margin-left:3%;
+        height: 200px;
+        box-shadow: 0 0 23px 0px #A49DA4,
+        -6px -3px 41px 8px #1D1B1B;
+        border-radius: 30PX;
+       
+        
+    }
+    .origenes{
+        margin-top: 5%;
+        margin-left:1%;
+        height: 200px;
+        border-radius: 30PX;
+        box-shadow: 0 0 23px 0px #A49DA4,
+        -6px -3px 41px 8px #1D1B1B;
+    }
+    .titulo_sect_2{
+        margin-top: 5%;
+        margin-left:3%;
+        font-weight: 600;
+        font-size: 1.3em;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+     
+    }
+    .texto_2{
+        font-weight: 600;
+        font-size: 0.9em;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 5%;
+        margin-left:3%;
+    }
+    .texto_1{
+        font-weight: 600;
+        font-size: 0.9em;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 5%;
+        margin-left:3%;
+    }
+    .titulo_sect_1{
+        font-weight: 600;
+        font-size: 1.3em;
+        margin-top: 5%;
+        margin-left:3%;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+}
+

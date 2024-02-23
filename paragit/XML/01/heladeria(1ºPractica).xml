@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<heladeria>
+<helado>
+<sabor>Menta</sabor>
+<cucurucho>mediano crocante</cucurucho>
+<tarrina toppin1 = "nubes" topping2 = "lacasitos" ></tarrina>
+<precio>3,25€</precio>
+</helado>
+<helado>
+<sabor>Fresa</sabor>
+<cucurucho></cucurucho>
+<tarrina toppin1 = "nubes" topping2 = "lacasitos" ></tarrina>
+<precio>4,25€</precio>
+</helado>
+<ofertas>
+<helado_oferta></helado_oferta>
+<tarrina_oferta></tarrina_oferta>
+</ofertas>
+</heladeria>

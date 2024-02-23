@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(img/backgrund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99%;
+    height: 98vh;
+    backdrop-filter: blur(4px);
+}
+.desplegable{
+    /*el color no lo pongo en blanco por que sino se ve muy poco por no ser el mismo fondo pero sera con un color:white;*/
+    background: none;
+    margin-left: 90%;
+    border: transparent;
+    font-size: 14px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 03%;
+}
+
+.tituloPrin{
+    font-size: 40px;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 20%
+}
+.emailw{
+    border: transparent;
+    background: none;
+    font-size: 18px;
+    width: 30%;
+    height: 50px;
+    margin-left: 20%;
+   /*solo se le pone a lo que escribe el usuario*/
+   border-bottom: 2px solid black;
+    
+}
+.cnt{
+    border: transparent;
+    background: none;
+    font-size: 18px;
+    width: 30%;
+    height: 50px;
+    margin-left: 20%;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.olvideCnt{
+    margin-left: 20%;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+.botF{
+    height: 60px;
+    width: 240px;
+    margin-left: 20%;
+    background: none;
+    border-color: black;
+}
+
+
+
+
+.titulo{
+    font-size: 40px;
+    color: black;
+    font-weight: 900;
+}
+
+.texto{
+    font-weight: 900;
+    color: black;
+    margin-bottom: 2%;
+    font-size: 24px;
+}
+
+.crear{
+    height: 60px;
+    width: 240px;
+    background: none;
+    border-color: black;
+}
+
+.cuenta{
+    margin-left: 60%;
+    margin-top: -20%;
+    width: 340px;
+    
+
+}
+.finPag{
+    margin-top: 04%;
+
+}
+.tit04{
+    margin-top: 04%;
+    margin-left: 25%;
+    font-weight: 800;
+    font-size: 20px;
+}
+.imgFin{
+    height: 44px;
+    width: 44px;
+}
+.imgFin1{
+   
+    height: 44px;
+    width: 44px;
+}
+.finPag{
+   
+    background-color: blue;
+    margin-left: 22%;
+    border-radius: 6px;
+
+}
+
+.e1{
+    color: white;
+    border: transparent;
+    background: none;
+    height: 44px;
+    width: 150px;
+}
+.cnt1{
+    height: 45px;
+    margin-top: -110px;
+   
+}
+.t2{
+
+    background-color: blue;
+    margin-left: 39%;
+    margin-top: -3.5%;
+    border-radius: 6px;
+}
+.g3{
+    margin-top: -2%;
+}
+.i1{
+ width: 20px;
+ height: 20px;
+}
+.r4{
+    font-weight: 800;
+}
+
+

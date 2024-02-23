@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.boFi{
+    margin-left: 10%;
+
+}
+.tab{
+    margin-top: 30px;
+}
+.imgTod{
+    width: 700px;
+    height: 200px;
+    border-style: double;
+    border-color: orange;
+    border-width: 10px;
+    padding: 5px;
+}
+.port{
+    margin-left: 250px;
+}
+
+.bor1{
+    margin-right: 100px;
+}
+.ij1{
+    height: 150px;
+    width: 500px;
+}
+.tabla1 {
+    margin: 0px 90px;
+    border-spacing: left 50px;
+    margin-bottom: 30px;
+
+}
+td {
+    padding-left: 50px;
+}
+li{
+   
+    padding-left: 40px;
+    font-weight: bolder;
+    display: inline;
+}
+ul{
+    list-style:none;
+    
+}
+.lista_nav{
+    background-color: black;
+    color: white;
+    padding-left: 444px;
+    margin-top: -10px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 30px;
+}
+.lista_fot{
+    background-color: black;
+    color: white;
+    padding-left: 444px;
+    padding-bottom: 20px;
+margin-bottom: -10px;
+margin-left: -10px;
+    margin-right: -10px;
+padding-top: 10px;
+
+}
+.titulito{
+    margin-left: 25%;
+}
+li{
+    cursor: pointer;
+    }
+    li:hover{
+        color: red;
+    
+}
+a{
+    color: white ;
+
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.bot {
+    
+    margin-left: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+    cursor: pointer;
+
+    
+}
+
+.bot:hover {
+    color: white;
+     padding: 10px;  
+     font-size: 20px;   
+}
+
+.titulito{
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+  
