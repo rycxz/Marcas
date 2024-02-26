@@ -1,0 +1,52 @@
+pintores{
+    background-color: black;
+}
+titulo{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+pintor{
+    border: solid 3px red;
+    display: inline-block;
+    width: 180px;
+    padding: 20px;
+    margin-top: 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 30px;
+    color: white;
+    
+}
+nombre{
+    
+    margin-top: 20px;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 13%;
+
+    
+    
+}
+nacido{
+    display: block;
+    font-size: 23px;
+    text-align: center;
+}
+fallecido{
+    display: block;
+    font-size: 23px;
+    text-align: center;
+}
+nacionalidad{
+    color: black;
+    display: block;
+    text-align: center;
+}

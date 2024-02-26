@@ -1,0 +1,14 @@
+peliculas{
+    background-color: aqua;
+}
+pelicula{
+    border:  solid 4px blue;
+    display: block;
+    height: 300px;
+    width: 100px;
+}
+titulo{
+    color: palevioletred;
+    font-weight: 900;
+    text-decoration: underline;
+}

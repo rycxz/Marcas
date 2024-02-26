@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos.css" type="text/css"?>
+<peliculas>
+    <pelicula>
+        <titulo>Boom</titulo>
+        <year>2001</year>
+        <reparto>The doom</reparto>
+    </pelicula>
+    <pelicula>
+        <titulo>Dumbo</titulo>
+        <year>2004</year>
+        <reparto>Dumbo</reparto>
+    </pelicula>
+</peliculas>
