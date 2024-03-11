@@ -1,0 +1,25 @@
+palabra{
+    border: solid black 5px;
+    display: inline-table;
+    padding: 15px;
+
+}
+español{
+    border: solid red 5px;
+    display: block;
+}
+
+francés{
+    border: solid blue 5px;
+    display: block;
+}
+
+inglés{
+    border: solid green 5px;
+    display: block;
+}
+
+español::first-letter {
+    color: red;
+}
+

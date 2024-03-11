@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<pagina>
+
+ <pantalla>
+ <nombre>Compras</nombre>
+ <color>#CC9900</color>
+ <fuente>Arial</fuente>
+ </pantalla>
+ 
+ <pantalla>
+ <nombre>Mensajes</nombre>
+ <color>#9900FF</color>
+ <fuente tipo="uno">Arial</fuente>
+ </pantalla>
+ 
+ <pantalla>
+ <nombre>Noticias</nombre>
+ <color>#EECCEE</color>
+ <fuente tipo="dos">Helvetica</fuente>
+ </pantalla>
+ 
+ <pantalla>
+ 
+  <contenido>
+  
+ <nombre>Anuncios</nombre>
+ <color>#AACCAA</color>
+ <fuente tipo="tres">Verdana</fuente>
+ <p>Esto es un párrafo</p>
+ <p>Esto es otro párrafo</p>
+ 
+ </contenido>
+ 
+  </pantalla>
+ 
+</pagina>

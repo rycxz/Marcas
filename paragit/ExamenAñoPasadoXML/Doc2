@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine [
+
+  <!ELEMENT cine (directores+,compositores+,peliculas+)>
+  <!ELEMENT directores (director*)>
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST  director lc  ID  #REQUIRED>
+<!ATTLIST  director nombre NMTOKENS  #REQUIRED>
+<!ATTLIST  director fecha_nacimiento NMTOKENS  #REQUIRED>
+<!ATTLIST  director pais_nacimiento NMTOKENS  #REQUIRED>
+
+
+  <!ELEMENT peliculas (pelicula+)>
+  <!ELEMENT pelicula (estreno)>
+  <!ELEMENT estreno (#PCDATA)>
+  <!ATTLIST pelicula titulo NMTOKENS #IMPLIED >
+  
+  
+<!ELEMENT compositores (compositor*)>
+<!ELEMENT compositor EMPTY>
+<!ATTLIST  compositor nombre NMTOKENS  #REQUIRED>
+<!ATTLIST  compositor fecha_nacimiento NMTOKENS  #REQUIRED>
+<!ATTLIST  compositor pais_nacimiento NMTOKENS  #REQUIRED>
+]>
+<cine>
+  <directores>
+    <director lc="CN" nombre="Christopher Nolan" fecha_nacimiento="1970" pais_nacimiento="UK" />
+    <director lc="MS" nombre="Martin Scorsese" fecha_nacimiento="1942" pais_nacimiento="EEUU" />
+    <director lc="DG" nombre="Drew Goddard" fecha_nacimiento="1975" pais_nacimiento="EEUU" />
+    </directores>
+    
+  <compositores>
+    <compositor nombre="Hans Zimmer" fecha_nacimiento="1957" pais_nacimiento="Alemania" />
+    <compositor nombre="David Julyan" fecha_nacimiento="1967" pais_nacimiento="UK" />
+  </compositores>
+  
+  <peliculas>
+    <pelicula titulo="Uno de los nuestros">
+                  <estreno>1990</estreno>
+    </pelicula>
+    <pelicula titulo="Thelma y Louise">
+                    <estreno>1991</estreno>
+    </pelicula>
+      <pelicula titulo="El Truco Final">
+                    <estreno>2006</estreno>
+      </pelicula>
+     <pelicula titulo="Origen">
+                         <estreno>2010</estreno>
+
+     </pelicula>
+     <pelicula titulo="La cabaña en el bosque">
+                         <estreno>2011</estreno>
+
+     </pelicula>
+  </peliculas>
+</cine>

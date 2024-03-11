@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viajes [
+
+    <!ELEMENT viajes (austria, italia, francia, alemania, reinounido)>
+    
+    <!ELEMENT austria (ciudad+, atracciones?)>
+    
+    <!ELEMENT italia (ciudad*, puntos_de_interes?)>
+    
+    <!ELEMENT francia (ciudad+, monumentos?)>
+    
+    <!ELEMENT alemania (ciudad*, comida_y_bebida?)>
+    
+    <!ELEMENT reinounido (ciudad+, entretenimiento?)>
+    
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT atracciones (#PCDATA)>
+    <!ELEMENT puntos_de_interes (#PCDATA)>
+    <!ELEMENT monumentos (#PCDATA)>
+    <!ELEMENT comida_y_bebida (#PCDATA)>
+    <!ELEMENT entretenimiento (#PCDATA)>
+
+    <!ELEMENT ciudadano (nombre, edad, direccion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+
+    <!ATTLIST ciudad tipo ID #REQUIRED >
+    <!ATTLIST viajes fecha CDATA #REQUIRED>
+    <!ATTLIST atracciones tipo CDATA #IMPLIED>
+]>
+
+<viajes fecha="23-12-2024">
+
+<austria>
+<ciudad tipo="Turistica">Viena</ciudad>
+<ciudad tipo="Residencial">Innesbruck</ciudad>
+</austria>
+
+<italia>
+<ciudad tipo="Turistica-Ita">Napoles</ciudad>
+<ciudad tipo="Turistica-ITA">Roma</ciudad>
+<ciudad tipo="Turistica-1">Venecia</ciudad>
+<puntos_de_interes>Coliseo</puntos_de_interes>
+</italia>
+<francia>
+<ciudad  tipo="Turistica-3">Paris</ciudad>
+<ciudad tipo="Residencial-45">Marsella</ciudad>
+<monumentos>Notre Dame</monumentos>
+</francia>
+
+<alemania>
+<ciudad tipo="Turistica-4">Berilin</ciudad>
+<comida_y_bebida>Cerveza</comida_y_bebida>
+</alemania>
+<reinounido>
+<ciudad tipo="Residencial-9">Londres</ciudad>
+<entretenimiento>Beber Te</entretenimiento>
+</reinounido>
+</viajes>
