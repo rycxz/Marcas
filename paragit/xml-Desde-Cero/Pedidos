@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+<pedido>
+<destinatario tipo="Sr.">Juan Delgado Martínez.</destinatario>
+<conetindio>
+<cantidad>01</cantidad>
+<tipo>bicicleta</tipo>
+<modelo>A2023</modelo>
+</conetindio>
+<destino>
+<tipo>calle</tipo>
+<nombre numero="4">Barco</nombre>
+<ubicacion>tercer piso, letra A</ubicacion>
+</destino>
+<fecha-entrega>19-5-2023</fecha-entrega>
+</pedido>
+
+</pedidos>
+

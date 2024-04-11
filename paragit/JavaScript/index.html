@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function saludo() { 
+        alert("Bienvenido a mi web")
+        confirm("me das 300 eoruos")
+        document.write("queires donar 50 euros ")
+        }
+        function datos(){
+            var nombre;
+            nombre= prompt("dime tu nombre")
+            alert("hola " + nombre)
+        }
+        function calculat(){
+            var n1,n2,n3
+            n1=parseInt(prompt("dime tus numeors"))
+            n2=parseInt(prompt("dime tus numeors"))
+            n3 = n1+n2
+            alert("su numero es "+ (n1+n2)) 
+        }
+    </script>
+</head>
+<body>
+    <button type="button" value="saludo" onclick="saludo()">saludo</button>
+    <button type="button" value="datos" onclick="datos()">datos</button>
+    <button type="button" value="suma" onclick="calculat()">calculat</button>
+</body>
+</html>
