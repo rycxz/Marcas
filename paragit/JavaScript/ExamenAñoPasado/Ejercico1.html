@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<script>
+    var n1,n2,n3;
+  n1=prompt('Ingrese primer número');
+  n2=prompt('Ingrese segundo número');
+  n3=prompt('Ingrese tercer número');
+  n1=parseInt(n1);
+  n2=parseInt(n2);
+  n3=parseInt(n3);
+
+  if (n1>n2 && n1>n3)
+  {
+    document.write('el mayor es el '+n1+'<br>');
+  
+  }
+    else if (n2>n3 && n2>n1)
+    {
+      document.write('el mayor es el '+n2+'<br>'); 
+    }
+    else 
+    {
+      document.write('el mayor es el '+n3+'<br>');
+    }
+  
+  alert(" La media es: "+(n1+n2+n3)/3);
+  
+</script>
+
+</body>
+</html>

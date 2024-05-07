@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+var vector  = new Array(100)
+var media =0;
+function rellenar(){
+    for (var i =0;i<100;i++){
+    vector[i]=i;
+    media =(media+  vector[i])/100 ;
+}
+}
+function visualizar(){
+    alert(media)
+}
+
+
+        </script>
+</head>
+<body>
+    <input type="button" value="rellenar" onclick="rellenar()"></input>
+    <input type="button" value="visualizar" onclick="visualizar()"></input>
+    
+</body>
+</html>

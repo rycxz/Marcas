@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+var num;
+var numAleatorio=Math.round(Math.random() * 99) + 1;
+var intentos;
+function rellenar(){
+    for (var i =0;i<3;i++){
+        num=prompt("intento "+(i+1)+", dame un numero del 1 al 100");
+
+if (num==numAleatorio){
+
+    alert("HAS ACERTADO");
+    break;
+
+} else {
+    alert("has fallado");
+    if (num>numAleatorio){
+
+        alert("el numero es menor");
+
+    } else {
+
+        alert("el numero es mayor");
+    }
+}
+}
+
+if (num!=numAleatorio){
+alert("El numero era "+numAleatorio);
+}
+
+}
+    
+ 
+
+
+
+
+        </script>
+</head>
+<body>
+    <input type="button" value="rellenar" onclick="rellenar()"></input>
+
+    
+</body>
+</html>

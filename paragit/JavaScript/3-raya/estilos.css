@@ -1,0 +1,31 @@
+input[type=button]{
+
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 0px;
+    border-radius: 20px;
+    font-family: games;
+    font-size: 3em;
+    text-align: center;
+    vertical-align: middle;
+    
+       }
+
+       form{
+        text-align: center;
+        margin-top: 60px;
+       }
+
+       body{
+        background-color: lightgray;
+       }
+
+       p{
+        text-align: center;
+        font-size: 70px;
+        color: black;
+        font-weight: bold;
+    background-color: antiquewhite;
+        opacity: 80%;
+       }

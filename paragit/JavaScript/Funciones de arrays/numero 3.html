@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+var vector  = new Array(100);
+function rellenar(){
+    for (var i =100;i>0;i--){
+    vector[i]=i;
+    if(vector[i]%2==0){
+        document.write("es par" + vector[i])
+    }
+    else{
+        document.write("no es par "+ vector[i])
+    }
+ 
+} 
+}
+
+
+
+        </script>
+</head>
+<body>
+    <input type="button" value="rellenar" onclick="rellenar()"></input>
+  
+    
+</body>
+</html>

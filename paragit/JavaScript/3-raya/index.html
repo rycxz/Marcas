@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+    <script>
+
+        var contador = 0;
+
+        function limpiar(){
+
+          location.reload();
+
+        }
+
+        function xo (b){
+
+            contador ++;
+            if (contador % 2){
+
+                b.value = 'X' ;
+                b.disabled = true;
+
+            } else {
+
+                b.value = 'o' ;
+                 b.disabled = true;
+            } 
+        
+
+            if (document.f1.b11.value == document.f1.b12.value && document.f1.b11.value ==  document.f1.b13.value && document.f1.b11.value == "X"){
+
+alert("gana X");
+limpiar();
+
+} 
+
+if (document.f1.b21.value == document.f1.b22.value && document.f1.b21.value ==  document.f1.b23.value && document.f1.b21.value == "X"){
+
+alert("gana X");
+limpiar();
+
+} 
+if (document.f1.b31.value == document.f1.b32.value && document.f1.b31.value ==  document.f1.b33.value && document.f1.b31.value == "X"){
+
+alert("gana X");
+limpiar();
+
+} 
+
+
+
+if (document.f1.b11.value == document.f1.b21.value && document.f1.b11.value ==  document.f1.b31.value && document.f1.b11.value == "X"){
+
+alert("gana X");
+limpiar();
+
+} 
+
+if (document.f1.b12.value == document.f1.b22.value && document.f1.b12.value ==  document.f1.b32.value && document.f1.b12.value == "X"){
+
+alert("gana X");
+limpiar();
+
+} 
+if (document.f1.b13.value == document.f1.b23.value && document.f1.b13.value ==  document.f1.b33.value && document.f1.b13.value == "X"){
+
+alert("gana X");
+limpiar();
+
+}
+
+if (document.f1.b11.value == document.f1.b22.value && document.f1.b33.value ==  document.f1.b11.value && document.f1.b11.value == "X"){
+
+alert("gana X");
+limpiar();
+
+} 
+
+if (document.f1.b13.value == document.f1.b22.value && document.f1.b13.value ==  document.f1.b31.value && document.f1.b13.value == "X"){
+
+alert("gana X");
+limpiar();
+
+}
+
+/*ahora con las o*/
+
+if (document.f1.b11.value == document.f1.b12.value && document.f1.b11.value ==  document.f1.b13.value && document.f1.b11.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+
+if (document.f1.b21.value == document.f1.b22.value && document.f1.b21.value ==  document.f1.b23.value && document.f1.b21.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+if (document.f1.b31.value == document.f1.b32.value && document.f1.b31.value ==  document.f1.b33.value && document.f1.b31.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+
+
+
+if (document.f1.b11.value == document.f1.b21.value && document.f1.b11.value ==  document.f1.b31.value && document.f1.b11.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+
+if (document.f1.b12.value == document.f1.b22.value && document.f1.b12.value ==  document.f1.b32.value && document.f1.b12.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+if (document.f1.b13.value == document.f1.b23.value && document.f1.b13.value ==  document.f1.b33.value && document.f1.b13.value == "o"){
+
+alert("gana O");
+limpiar();
+
+}
+
+if (document.f1.b11.value == document.f1.b22.value && document.f1.b33.value ==  document.f1.b11.value && document.f1.b11.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+
+if (document.f1.b13.value == document.f1.b22.value && document.f1.b13.value ==  document.f1.b31.value && document.f1.b13.value == "o"){
+
+alert("gana O");
+limpiar();
+
+} 
+} 
+
+</script>
+
+</head>
+<body>
+    <p>3 En Raya</p>
+    <form id="f1" name="f1">
+
+        <input type="button" class="imagen" name="b11" onclick="xo(this)"></input>
+        <input type="button" class="imagen" name="b12" onclick="xo(this)"></input>
+        <input type="button" class="imagen" name="b13" onclick="xo(this)"></input>
+        <br>
+        <br>
+        <input type="button" class="imagen" name="b21" onclick="xo(this)"></input>
+        <input type="button" class="imagen" name="b22" onclick="xo(this)"></input>
+        <input type="button" class="imagen" name="b23" onclick="xo(this)"></input>
+        <br>
+        <br>
+        <input type="button" class="imagen" name="b31" onclick="xo(this)"></input>
+        <input type="button" class="imagen" name="b32" onclick="xo(this)"></input>
+        <input type="button" class="imagen" name="b33" onclick="xo(this)"></input>
+
+    </form>
+    
+</body>
+</html>

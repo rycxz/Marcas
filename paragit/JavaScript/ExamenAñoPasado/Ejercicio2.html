@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 </title>
+    <script> 
+    
+    var n1;
+    function numeroAleatorio20(){
+      
+        n1 = Math.floor(Math.random()*21);
+        alert('el numero aleatorio es ' + n1)
+       
+    
+      }
+      function numerosImpares(){
+
+        for(var i = 0;i<n1;i++){
+            if(i%2==0){
+               
+               
+            }
+            else{
+                document.write('el numero es ' + i);
+            }
+        }
+      }
+      
+      
+      </script>
+</head>
+<body>
+    <input type="button" value="numero aleatorio 0-20" onclick="numeroAleatorio20()"></input>
+    <input type="button" value="numero impar Aleatorio" onclick="numerosImpares()"></input>
+</body>
+</html>
