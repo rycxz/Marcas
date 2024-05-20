@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+var numero = parseInt(prompt('dime un numero'));
+var numeroAux = numero;
+
+function doblar (){
+
+numero*=2;
+alert(numero);
+numero = numeroAux;
+
+}
+
+function triplicar (){
+
+    numero*=3;
+    alert(numero);
+    numero = numeroAux;
+    
+
+}
+
+function quintuplicar (){
+
+    numero*=5;
+    alert(numero);
+    numero = numeroAux;
+
+}
+
+
+</script>
+
+<body>
+    
+<!-- 1. Crear una página con tres botones: Doble, Triple y Quíntuple. Llamarán
+respectivamente a las funciones de doblar(), triplicar() y quintuplicar() al
+hacer clic sobre ellos.
+El programa pide un número y se devuelve una cantidad u otra según el
+botón que se pulse.(2p)-->
+
+
+<input type="button" value="doble" id="" onclick=" doblar ()">
+
+<input type="button" value="triple" id="" onclick=" triplicar ()">
+
+<input type="button" value="quintuple" id="" onclick=" quintuplicar ()">
+
+</body>
+</html>

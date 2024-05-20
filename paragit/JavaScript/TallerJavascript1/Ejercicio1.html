@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+
+<script>
+
+var ciudades = new Array ();
+var contador = 0 ;
+
+function pedirCiudad (){
+
+    ciudades [contador] =  prompt('dime el nombre de la ciudad');
+    contador++;
+
+}
+
+function mostrarCiudad (){
+
+    for (var i = 0; i<ciudades.length; i++){
+
+        document.write(ciudades[i] + '<br>');
+
+    }
+}
+
+function contarCiudad (){
+
+    alert(ciudades.length);
+
+    if (ciudades.length % 2 == 0){
+
+        document.bgColor = 'blue';
+
+    } else {
+
+        document.bgColor = 'green';
+         
+    }
+}
+
+</script>
+
+</head>
+<body>
+    
+
+<!-- 1. Crea un programa que me pida ciudades y las almacene en un vector.
+Tendrá los siguientes botones a. Botón Pedir ciudad. Me pedirá una ciudad y la almacenará en el
+vector (0,75p)
+b. Botón mostrar ciudades. Cuando lo pulse me visualizará las
+ciudades que tengo en el array (1p)
+c. Contar ciudades. Cuando pulse este botón me visualizará cuantas
+ciudades hay y si ese número es par me coloreará la página en
+azul y sino en verde (1.25p)-->
+
+
+<input type="button" value="pedir ciudad" id="" onclick=" pedirCiudad ()">
+
+<input type="button" value="mostrar ciudades" id="" onclick=" mostrarCiudad ()">
+
+<input type="button" value="contar ciudades" id="" onclick=" contarCiudad ()">
+
+</body>
+</html>

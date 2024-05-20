@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+
+function comprobacion () {
+
+if ( document.f1.boton1.value == '' || document.f1.boton2.value == '') {
+
+alert('estan vacios');
+
+} else {
+
+    if ( parseInt(document.f1.boton1.value)  < parseInt(document.f1.boton2.value) && parseInt(document.f1.boton2.value) <  parseInt(document.f1.boton3.value) ){
+
+        var num1 = parseInt(Math.floor(Math.random() * ( parseInt(document.f1.boton3.value)  - parseInt(document.f1.boton2.value)  + 1)) + parseInt(document.f1.boton2.value));
+        var num2 = parseInt(Math.floor(Math.random() * ( parseInt(document.f1.boton3.value)  - parseInt(document.f1.boton2.value)  + 1)) + parseInt(document.f1.boton2.value));
+        var num3 = parseInt(Math.floor(Math.random() * ( parseInt(document.f1.boton3.value)  - parseInt(document.f1.boton2.value)  + 1)) + parseInt(document.f1.boton2.value));
+        var num4 = parseInt(Math.floor(Math.random() * ( parseInt(document.f1.boton3.value)  - parseInt(document.f1.boton2.value)  + 1)) + parseInt(document.f1.boton2.value));
+        var num5 = parseInt(Math.floor(Math.random() * ( parseInt(document.f1.boton3.value)  - parseInt(document.f1.boton2.value)  + 1)) + parseInt(document.f1.boton2.value));
+
+        if (num1 == 12 || num2 == 12 || num3 == 12 || num4 == 12 || num5 == 12){
+
+            alert('esta el 12');
+
+        } else {
+
+            alert('no esta el 12');
+
+        }
+
+
+    } else {
+
+        alert('el primero no es el menor o el segundo no es menor qiue TERCERO');
+
+    }
+
+}
+
+}
+
+</script>
+
+<body>
+ 
+    <!--   Realiza un formulario con tres cajas de texto,
+        
+        me tendrá que comprobar
+    que las dos cajas están rellenas con algún dato (0,5p), además deberá
+    comprobar que el primer número sea menor que el segundo y este
+    menor que el tercero (0,75p),Cuando pulse un botón me deberá calcular
+    5 números aleatorios entre los calores de la segunda caja y la tercera
+    (0,75p), si en esos aleatorios que me ha calculado está el número 12,
+    me visualizará un mensaje que me diga que ha salido el 12 y me
+    coloreará la página de color naranja(0,5p)-->
+<br>
+
+   <form action="" name="f1">
+
+       Introduce primer numero:  <input type="text" name = "boton1"> <br>
+    <br>
+       Introduce segundo numero:  <input type="text" name ="boton2"><br>
+    <br>
+       Introduce tercer numero:  <input type="text" name = "boton3"> <br>
+    <br>
+
+</form>
+
+    Boton : <input type="button" value="comprobar" onclick="comprobacion()">
+
+</body>
+</html>

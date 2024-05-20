@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular múltiplos de 8 del valor introducido</title>
+
+
+
+</head>
+
+<body>
+ 
+
+    <h1>Calcular múltiplos de 8 del valor introducido</h1>
+
+    
+</body>
+
+<script>
+        
+    var x = parseInt(prompt('Introduce el primer número'));
+    var y = parseInt(prompt('Introduce el segundo número'));
+
+
+    var mayor;
+    var menor;
+
+    
+        if (x > y) {
+            mayor = x;
+            menor = y;
+        }
+         else {
+            mayor = y;
+            menor = x;
+        }
+        var resultado ;
+        
+        alert('El número mayor es ' + mayor + ' y el menor es ' + menor + 'Los múltiplos de 8 comprendidos son:');
+
+        while (mayor > menor) {
+
+            if ((mayor % 8) == 0) {
+                
+                document.write(mayor + '<br>');
+                
+            }
+            mayor--;
+        }
+        document.getElementById('resultado').innerHTML = resultado;
+
+</script>
+</html>
